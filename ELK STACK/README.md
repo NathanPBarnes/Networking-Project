@@ -38,11 +38,11 @@ The configuration details of each machine may be found below.
 
 | Name      | Function    | IP Address     | Operating System |
 | Host OS   | Workstation | 73.151.102.152 | Windows 10       |
-| Jump-Box  | Gateway     | 10.0.0.4     | Linux            |
-| ELK-VM    | Elk Stack   | 10.1.0.4     | Linux            |
-| Web-VM1   | DVWA Server | 10.0.0.5     | Linux            |
-| Web-VM2   | DVWA Server | 10.0.0.6     | Linux            |
-| Web-VM3   | DVWA Server | 10.0.0.7     | Linux            |
+| Jump-Box  | Gateway     | 10.0.0.4       | Linux            |
+| ELK-VM    | Elk Stack   | 10.1.0.4       | Linux            |
+| Web-VM1   | DVWA Server | 10.0.0.5       | Linux            |
+| Web-VM2   | DVWA Server | 10.0.0.6       | Linux            |
+| Web-VM3   | DVWA Server | 10.0.0.7       | Linux            |
 
 ### Access Policies
 
