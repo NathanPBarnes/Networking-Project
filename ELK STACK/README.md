@@ -118,13 +118,13 @@ SSH into the control node and follow the steps below:
 
 To download any of the above yaml files use the curl command as such:
 
-curl https://github.com/npbarnes47/Networking-Project/blob/main/README/Playbooks/configuration.yml
+curl https://github.com/NathanPBarnes/Networking-Project/blob/main/README/Playbooks/configuration.yml
 
-curl https://github.com/npbarnes47/Networking-Project/blob/main/README/Playbooks/install_elk.yml
+curl https://github.com/NathanPBarnes/Networking-Project/blob/main/README/Playbooks/install_elk.yml
 
-curl https://github.com/npbarnes47/Networking-Project/blob/main/README/Playbooks/filebeat-playbook.yml
+curl https://github.com/NathanPBarnes/Networking-Project/blob/main/README/Playbooks/filebeat-playbook.yml
 
-curl https://github.com/npbarnes47/Networking-Project/blob/main/README/Playbooks/metricbeat-playbook.yml
+curl https://github.com/NathanPBarnes/Networking-Project/blob/main/README/Playbooks/metricbeat-playbook.yml
 
 To run any of the yaml files simply use the following command followed by the name of the yaml file as such:
 
