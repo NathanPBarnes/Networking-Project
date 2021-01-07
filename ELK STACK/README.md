@@ -36,14 +36,14 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The configuration details of each machine may be found below.
 
-| Name      | Function    | IP Address     | Operating System |
-|-------------------------------------------------------------|
-| Host OS   | Workstation | 73.151.102.152 | Windows 10       |
-| Jump-Box  | Gateway     | 10.0.0.4       | Linux            |
-| ELK-VM    | Elk Stack   | 10.1.0.4       | Linux            |
-| Web-VM1   | DVWA Server | 10.0.0.5       | Linux            |
-| Web-VM2   | DVWA Server | 10.0.0.6       | Linux            |
-| Web-VM3   | DVWA Server | 10.0.0.7       | Linux            |
+|   Name   |   Function  |   IP Address   | Operating System |
+|:--------:|:-----------:|:--------------:|:----------------:|
+|  Host OS | Workstation | 73.151.102.152 |    Windows 10    |
+| Jump-Box |   Gateway   |    10.0.0.4    |   Ubuntu Server  |
+|  ELK-VM  |  Elk Stack  |    10.1.0.4    |   Ubuntu Server  |
+|  Web-VM1 | DVWA Server |    10.0.0.5    |   Ubuntu Server  |
+|  Web-VM2 | DVWA Server |    10.0.0.6    |   Ubuntu Server  |
+|  Web-VM3 | DVWA Server |    10.0.0.7    |   Ubuntu Server  |
 
 ### Access Policies
 
@@ -61,7 +61,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses      |
 |----------|---------------------|----------------------     |
-| Jump Box | Yes                 | 73.151.102.152            |
+| Jump-Box | Yes                 | 73.151.102.152            |
 | ELK-VM   | Yes                 | 73.151.102.152 & 10.0.0.4 |
 | Web-VM1  | No                  | 10.0.0.4                  |
 | Web-VM2  | No                  | 10.0.0.5                  |
