@@ -118,13 +118,13 @@ SSH into the control node and follow the steps below:
 
 To download any of the above yaml files use the curl command as such:
 
-curl https://github.com/NathanPBarnes/Networking-Project/blob/main/README/Playbooks/configuration.yml
+curl https://github.com/NathanPBarnes/Networking-Project/blob/main/ELK%20STACK/Playbooks/configuration.yml
 
 curl https://github.com/NathanPBarnes/Networking-Project/blob/main/ELK%20STACK/Playbooks/install_elk.yml
 
-curl https://github.com/NathanPBarnes/Networking-Project/ELK_STACK/Playbooks/filebeat-playbook.yml
+curl https://github.com/NathanPBarnes/Networking-Project/blob/main/ELK%20STACK/Playbooks/filebeat-playbook.yaml
 
-curl https://github.com/NathanPBarnes/Networking-Project/blob/main/README/Playbooks/metricbeat-playbook.yml
+curl https://github.com/NathanPBarnes/Networking-Project/blob/main/ELK%20STACK/Playbooks/metricbeat-playbook.yml
 
 To run any of the yaml files simply use the following command followed by the name of the yaml file as such:
 
@@ -135,5 +135,3 @@ ansible-playbook install_elk.yml
 ansible-playbook filebeat-playbook.yml
 
 ansible-playbook metricbeat-playbook.yml
-
-*** To see all playbooks at once as well as an example playbook download the all-playbooks.yaml file ***
