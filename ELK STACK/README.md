@@ -120,7 +120,7 @@ To download any of the above yaml files use the curl command as such:
 
 curl https://github.com/NathanPBarnes/Networking-Project/blob/main/README/Playbooks/configuration.yml
 
-curl https://github.com/NathanPBarnes/Networking-Project/blob/main/README/Playbooks/install_elk.yml
+curl https://github.com/NathanPBarnes/Networking-Project/blob/main/ELK%20STACK/Playbooks/install_elk.yml
 
 curl https://github.com/NathanPBarnes/Networking-Project/ELK_STACK/Playbooks/filebeat-playbook.yml
 
