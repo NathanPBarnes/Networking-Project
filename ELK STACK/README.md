@@ -122,7 +122,7 @@ curl https://github.com/NathanPBarnes/Networking-Project/blob/main/README/Playbo
 
 curl https://github.com/NathanPBarnes/Networking-Project/blob/main/README/Playbooks/install_elk.yml
 
-curl https://github.com/NathanPBarnes/Networking-Project/blob/main/README/Playbooks/filebeat-playbook.yml
+curl https://github.com/NathanPBarnes/Networking-Project/ELK_STACK/Playbooks/filebeat-playbook.yml
 
 curl https://github.com/NathanPBarnes/Networking-Project/blob/main/README/Playbooks/metricbeat-playbook.yml
 
