@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-[TODO: Update the path with the name of your diagram](Images/Elk Azure-based Cloud Network.png)
+https://github.com/NathanPBarnes/Networking-Project/blob/main/ELK%20STACK/Images/Elk%20Azure-based%20Cloud%20Network.png?raw=true
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the included yaml files may be used to install only certain pieces of it, such as Filebeat.
 
