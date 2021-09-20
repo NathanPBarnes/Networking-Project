@@ -38,7 +38,7 @@ The configuration details of each machine may be found below.
 
 |   Name   |   Function  |   IP Address   | Operating System |
 |:--------:|:-----------:|:--------------:|:----------------:|
-|  Host OS | Workstation | 73.151.102.152 |    Windows 10    |
+|  Host OS | Workstation |     x.x.x.x    |    Windows 10    |
 | Jump-Box |   Gateway   |    10.0.0.4    |   Ubuntu Server  |
 |  ELK-VM  |  Elk Stack  |    10.1.0.4    |   Ubuntu Server  |
 |  Web-VM1 | DVWA Server |    10.0.0.5    |   Ubuntu Server  |
@@ -51,7 +51,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-- 73.151.102.152
+- [workstation public IPv4 address]
 
 Machines within the network can only be accessed by the Jump Box. 
 
@@ -61,8 +61,8 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses      |
 |----------|---------------------|----------------------     |
-| Jump-Box | Yes                 | 73.151.102.152            |
-| ELK-VM   | Yes                 | 73.151.102.152 & 10.0.0.4 |
+| Jump-Box | Yes                 | x.x.x.x                   |
+| ELK-VM   | Yes                 | x.x.x.x & 10.0.0.4        |
 | Web-VM1  | No                  | 10.0.0.4                  |
 | Web-VM2  | No                  | 10.0.0.5                  |
 | Web-VM3  | No                  | 10.0.0.6                  |
