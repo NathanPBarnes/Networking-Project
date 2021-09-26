@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![image](https://user-images.githubusercontent.com/70610511/114112087-7294d080-9890-11eb-8696-3e34000b05f0.png)
+![image](Images/Azure-RedTeam-Network.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the included yaml files may be used to install only certain pieces of it, such as Filebeat.
 
